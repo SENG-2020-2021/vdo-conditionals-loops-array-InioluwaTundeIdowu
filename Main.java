@@ -8,7 +8,7 @@ class Main{
      // declare variables of amount the debtor is to pay per day, and amount the debtor paid and assign values to them
     
      float amountPerDay=500f;
-     float amountPaid=2000f;
+     float amountPaid=2450f;
 
     // declare all the variables needed for your calculations
 
@@ -41,7 +41,7 @@ class Main{
 		  
 	        if(amountPaid%amountPerDay>0){  
               incompleteAmount=amountPerDay-(amountPaid%amountPerDay);
-              System.out.println("The Incomplete amount in day "+defaultedDays[daysPaidFor +1]+ " left to pay is "+incompleteAmount);   
+              System.out.println("The Incomplete amount in day "+defaultedDays[daysPaidFor]+ " left to pay is "+incompleteAmount);   
 			  System.out.println(" ");
             }
     // calculate amount the debtor is left to pay if he did not pay complete fees and the days not paid for or  check if the debtor paid extra and the extra amount he paid for, or if he paid the 	exact amount needed to be paid and print likewise
